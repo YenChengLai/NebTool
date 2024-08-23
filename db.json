@@ -1,0 +1,57 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "frontline@zyxel.com",
+            "password": "frontline password",
+            "is_active": true,
+            "groups": [2]
+        }, 
+        {
+            "id": 2,
+            "username": "cso@zyxel.com.tw",
+            "password": "cso password",
+            "is_active": true,
+            "groups": [3]
+        },
+        {
+            "id": 3,
+            "username": "developer@zyxel.com.tw",
+            "password": "developer password",
+            "is_active": true,
+            "groups": [4]
+        },
+        {
+            "id": 4,
+            "username": "svd@zyxel.com.tw",
+            "password": "svd password",
+            "is_active": true,
+            "groups": [4]
+        },
+        {
+            "id": 5,
+            "username": "manager@zyxel.com.tw",
+            "password": "manager password",
+            "is_active": true,
+            "groups": [1, 4]
+        }
+    ],
+    "groups": [
+        {
+            "id": 1,
+            "name": "ADMIN"
+        },
+        {
+            "id": 2,
+            "name": "FRONTLINE"
+        },
+        {
+            "id": 3,
+            "name": "CSO"
+        },
+        {
+            "id": 4,
+            "name": "USER"
+        }
+    ]
+}
